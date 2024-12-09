@@ -7,6 +7,160 @@ export interface MenuItem {
 }
 
 
+import Tuwo_1 from './FOOD/Tuwo_1.jpg';
+import Tuwo_2 from './FOOD/Tuwo_2.jpg';
+import Tuwo_3 from './FOOD/Tuwo_3.jpg';
+import Tuwo_4 from './FOOD/Tuwo_4.jpg';
+import Tuwo_5 from './FOOD/Tuwo_5.jpg';
+import Tuwo_6 from './FOOD/Tuwo_6.jpg';
+import Tuwo_7 from './FOOD/Tuwo_7.jpg';
+
+
+
+
+
+import gizdodo_1 from './FOOD/gizdodo_1.jpg';
+import gizdodo_2 from './FOOD/gizdodo_2.jpg';
+import gizdodo_3 from './FOOD/gizdodo_3.jpg';
+import gizdodo_4 from './FOOD/gizdodo_4.jpg';
+import gizdodo_5 from './FOOD/gizdodo_5.jpg';
+import gizdodo_6 from './FOOD/gizdodo_6.jpg';
+
+
+
+
+import asaro_1 from './FOOD/asaro_1.jpg';
+import asaro_2 from './FOOD/asaro_2.jpg';
+import asaro_3 from './FOOD/asaro_3.jpg';
+import asaro_4 from './FOOD/asaro_4.jpg';
+import asaro_5 from './FOOD/asaro_5.jpg';
+import asaro_6 from './FOOD/asaro_6.jpg';
+import asaro_7 from './FOOD/asaro_7.jpg';
+
+
+
+import seafff_1 from './FOOD/seafff_1.jpg';
+import seafff_2 from './FOOD/seafff_2.jpg';
+import seafff_3 from './FOOD/seafff_3.jpg';
+import seafff_4 from './FOOD/seafff_4.jpg';
+import seafff_5 from './FOOD/seafff_5.jpg';
+import seafff_6 from './FOOD/seafff_6.jpg';
+import seafff_7 from './FOOD/seafff_7.jpg';
+import seafff_8 from './FOOD/seafff_8.jpg';
+
+
+import ayoka_1 from './FOOD/ayoka_1.jpg';
+import ayoka_2 from './FOOD/ayoka_2.jpg';
+import ayoka_3 from './FOOD/ayoka_3.jpg';
+import ayoka_4 from './FOOD/ayoka_4.jpg';
+import ayoka_5 from './FOOD/ayoka_5.jpg';
+import ayoka_6 from './FOOD/ayoka_6.jpg';
+import ayoka_7 from './FOOD/ayoka_7.jpg';
+import ayoka_8 from './FOOD/ayoka_8.jpg';
+import ayoka_9 from './FOOD/ayoka_9.jpg';
+import ayoka_10 from './FOOD/ayoka_10.jpg';
+
+
+
+
+import eba_1 from './FOOD/eba_1.jpg';
+import eba_2 from './FOOD/eba_2.jpg';
+import eba_3 from './FOOD/eba_3.jpg';
+import eba_4 from './FOOD/eba_4.jpg';
+import eba_5 from './FOOD/eba_5.jpg';
+import eba_6 from './FOOD/eba_6.jpg';
+import eba_7 from './FOOD/eba_7.jpg';
+
+
+
+
+import abula_1 from './FOOD/abula_1.jpg';
+import abula_2 from './FOOD/abula_2.jpg';
+import abula_3 from './FOOD/abula_3.jpg';
+import abula_4 from './FOOD/abula_4.jpg';
+import abula_5 from './FOOD/abula_5.jpg';
+import abula_6 from './FOOD/abula_6.jpg';
+import abula_7 from './FOOD/abula_7.jpg';
+import abula_8 from './FOOD/abula_8.jpg';
+import abula_9 from './FOOD/abula_9.jpg';
+
+
+
+
+
+import edika_1 from './FOOD/edika_1.jpg';
+import edika_2 from './FOOD/edika_2.jpg';
+import edika_3 from './FOOD/edika_3.jpg';
+import edika_4 from './FOOD/edika_4.jpg';
+import edika_5 from './FOOD/edika_5.jpg';
+import edika_6 from './FOOD/edika_6.jpg';
+import edika_7 from './FOOD/edika_7.jpg';
+import edika_8 from './FOOD/edika_8.jpg';
+import edika_9 from './FOOD/edika_9.jpg';
+import edika_10 from './FOOD/edika_10.jpg';
+
+
+
+
+import ayamase_1 from './FOOD/ayamase_1.jpg';
+import ayamase_2 from './FOOD/ayamase_2.jpg';
+import ayamase_3 from './FOOD/ayamase_3.jpg';
+import ayamase_4 from './FOOD/ayamase_4.jpg';
+import ayamase_5 from './FOOD/ayamase_5.jpg';
+import ayamase_6 from './FOOD/ayamase_6.jpg';
+import ayamase_7 from './FOOD/ayamase_7.jpg';
+import ayamase_8 from './FOOD/ayamase_8.jpg';
+import ayamase_9 from './FOOD/ayamase_9.jpg';
+import ayamase_10 from './FOOD/ayamase_10.jpg';
+import ayamase_11 from './FOOD/ayamase_11.jpg';
+import ayamase_12 from './FOOD/ayamase_12.jpg';
+import ayamase_13 from './FOOD/ayamase_13.jpg';
+import ayamase_14 from './FOOD/ayamase_14.jpg';
+import ayamase_15 from './FOOD/ayamase_15.jpg';
+import ayamase_16 from './FOOD/ayamase_16.jpg';
+
+
+
+
+
+import semo_1 from './FOOD/semo_1.jpg';
+import semo_2 from './FOOD/semo_2.jpg';
+import semo_3 from './FOOD/semo_3.jpg';
+import semo_4 from './FOOD/semo_4.jpg';
+import semo_5 from './FOOD/semo_5.jpg';
+import semo_6 from './FOOD/semo_6.jpg';
+import semo_7 from './FOOD/semo_7.jpg';
+import semo_8 from './FOOD/semo_8.jpg';
+import semo_9 from './FOOD/semo_9.jpg';
+
+
+
+
+import egusi_1 from './FOOD/egusi_1.jpg';
+import egusi_2 from './FOOD/egusi_2.jpg';
+import egusi_3 from './FOOD/egusi_3.jpg';
+import egusi_4 from './FOOD/egusi_4.jpg';
+import egusi_5 from './FOOD/egusi_5.jpg';
+import egusi_6 from './FOOD/egusi_6.jpg';
+import egusi_7 from './FOOD/egusi_7.jpg';
+import egusi_8 from './FOOD/egusi_8.jpg';
+
+
+
+
+import eforiro_1 from './FOOD/eforiro_1.jpg';
+import eforiro_2 from './FOOD/eforiro_2.jpg';
+import eforiro_3 from './FOOD/eforiro_3.jpg';
+import eforiro_4 from './FOOD/eforiro_4.jpg';
+import eforiro_5 from './FOOD/eforiro_5.jpg';
+import eforiro_6 from './FOOD/eforiro_6.jpg';
+import eforiro_7 from './FOOD/eforiro_7.jpg';
+import eforiro_8 from './FOOD/eforiro_8.jpg';
+
+
+
+
+
 import peppersoup_1 from './FOOD/peppersoup_1.jpg';
 import peppersoup_2 from './FOOD/peppersoup_2.jpg';
 import peppersoup_3 from './FOOD/peppersoup_3.jpg';
@@ -418,126 +572,286 @@ Pepper soup is often served with sides like soft white rice or pounded yam, maki
 Whether served as an appetizer or a refreshing, flavorful dish to complement the rest of your menu, pepper soup brings a taste of Nigerian culture and a burst of bold flavors to your event, ensuring that your guests enjoy a truly memorable dining experience.`,
         category: 'African Dishes' 
     },
-    // { 
-    //     id: 15, 
+    { 
+        id: 15, 
         
-    //     name: ``,
-    //     images: [
-            
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 16, 
+        name: `Ẹ̀fọ́ Rírò: A Flavorful Yoruba Delicacy for Your Event`,
+        images: [
+            eforiro_1,
+  eforiro_2,
+  eforiro_3,
+  eforiro_4,
+  eforiro_5,
+  eforiro_6,
+  eforiro_7,
+  eforiro_8
+        ],
+        description: `Ẹ̀fọ́ Rírò is a quintessential Yoruba vegetable soup that brings richness, tradition, and bold flavors to any event. Known for its vibrant colors and deeply satisfying taste, this dish is a must-have at weddings, birthdays, and cultural celebrations, offering guests a true taste of Yoruba culinary heritage.
+
+Prepared with ẹ̀fọ́ (leafy greens like spinach or ẹ̀fọ́ tẹ̀tẹ̀), the soup is simmered in a base of blended peppers, tomatoes, and onions, enhanced with the distinct flavor of palm oil. Assorted meats, dried fish, pònmó (cow skin), and ìrán (stockfish) are added to give it a rich and hearty texture. The seasoning, which includes traditional spices, ensures that every bite bursts with authentic Yoruba flavors.
+
+Ẹ̀fọ́ Rírò pairs perfectly with staples like ìṣu pọn (pounded yam), àmàlà, ẹ̀bà, or white rice, making it a versatile and satisfying dish for all palates. Its vibrant appearance and aroma add a festive touch to your event’s menu, leaving guests delighted and fulfilled.
+
+As a highlight of Yoruba cuisine, Ẹ̀fọ́ Rírò represents both culture and comfort, ensuring your event is not just a celebration but a memorable culinary journey for everyone in attendance.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 16, 
         
-    //     name: ``,
-    //     images: [
+        name: `Ẹ̀gúsí: A Rich Nigerian Classic for Your Event`,
+        images: [
+            egusi_1,
+  egusi_2,
+  egusi_3,
+  egusi_4,
+  egusi_5,
+  egusi_6,
+  egusi_7,
+  egusi_8
             
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 17, 
+        ],
+        description: `Ẹ̀gúsí soup is a hearty and flavorful Yoruba delicacy that brings warmth, tradition, and indulgence to any event. Made with ground melon seeds (ẹ̀gúsí), this rich soup is a beloved staple, offering bold flavors and a satisfying texture that leaves a lasting impression on guests.
+
+The soup is prepared with a vibrant base of blended peppers, tomatoes, and onions, simmered in palm oil to create a flavorful sauce. The ẹ̀gúsí adds a nutty, creamy texture that perfectly complements the spices and aromatics. Assorted meats, fish, and even seafood can be incorporated, along with fresh vegetables like spinach, ẹ̀fọ́ ẹ̀làbọ̀ (pumpkin leaves), or bitter leaf, making it a robust and wholesome dish.
+
+Ẹ̀gúsí pairs beautifully with traditional Yoruba staples such as ìṣu pọn (pounded yam), ẹ̀bà, àmàlà, or fùfú, creating a complete and satisfying meal. Its rich flavor and versatility make it ideal for weddings, ọjọ ìbí (birthdays), and cultural events, offering a true taste of Yoruba heritage.
+
+With its inviting aroma, vibrant appearance, and deep, savory flavors, Ẹ̀gúsí soup is more than just a dish—it’s a culinary experience that your guests will cherish and remember long after the event is over.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 17, 
         
-    //     name: ``,
-    //     images: [
-            
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 18, 
+        name: `Sèmó: A Versatile Yoruba Staple for Your Event`,
+        images: [
+            semo_1,
+            semo_2,
+            semo_3,
+            semo_4,
+            semo_5,
+            semo_6,
+            semo_7,
+            semo_8,
+            semo_9
+        ],
+        description: `Sèmó, short for Sèmòlínà, is a beloved Nigerian staple and a key component of Yoruba cuisine. Known for its smooth texture and neutral taste, sèmó serves as the perfect complement to rich and flavorful soups, making it an excellent addition to your event menu.
+
+Made by mixing semolina flour with hot water and stirring to a soft, pliable consistency, sèmó is a versatile and satisfying option for guests. Its light, fluffy texture pairs beautifully with a variety of traditional soups, such as ẹ̀gúsí, ẹ̀fọ́ rírò, ìla alàsèpọ̀ (okra soup), or ogbono. Sèmó absorbs the flavors of the soup, ensuring a balanced and enjoyable dining experience with every bite.
+
+Perfect for weddings, cultural celebrations, and formal gatherings, sèmó offers guests a taste of authentic Yoruba and Nigerian culinary tradition. Its simplicity and compatibility with various dishes make it a crowd-pleaser that caters to diverse palates.
+
+By including sèmó in your event menu, you provide a wholesome, classic dish that complements and enhances the rich flavors of your soups, leaving your guests satisfied and impressed with the authenticity of your event's culinary offerings.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 18, 
         
-    //     name: ``,
-    //     images: [
+        name: `Ayamase Sauce: A Spicy Yoruba Delight for Your Event`,
+        images: [
+            ayamase_3,
+            ayamase_1,
+            ayamase_2,
+            ayamase_4,
+            ayamase_5,
+            ayamase_6,
+            ayamase_7,
+            ayamase_8,
+            ayamase_9,
+            ayamase_10,
+            ayamase_11,
+            ayamase_12,
+            ayamase_13,
+            ayamase_14,
+            ayamase_15,
+            ayamase_16,
+           
             
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 19, 
+        ],
+        description: `Ayamase, also known as Ofada Sauce or Designer Stew, is a rich and flavorful Yoruba specialty that adds a touch of spice and tradition to any event. Renowned for its distinct green color and intense taste, Ayamase is the perfect companion for Ofada rice or steamed white rice, making it a standout dish at weddings, birthdays, and cultural celebrations.
+
+Prepared with a blend of green bell peppers, Scotch bonnet peppers, onions, and richly flavored palm oil, Ayamase sauce boasts a bold and smoky flavor. It’s often cooked with assorted meats, shaki (tripe), pònmó (cow skin), and boiled eggs for a hearty and satisfying dish. The addition of local spices and fermented locust beans (iru) gives it a unique depth that’s characteristic of Yoruba cuisine.
+
+The sauce’s fiery kick and savory richness make it a favorite among guests who appreciate traditional Nigerian dishes. Its vibrant appearance and distinct aroma bring life to the menu, ensuring your event leaves a lasting impression.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 19, 
         
-    //     name: ``,
-    //     images: [
-            
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 20, 
+        name: `Ẹ̀díkáng Íkòng: A Nutritious Nigerian Delicacy for Your Event`,
+        images: [
+            edika_1,
+  edika_2,
+  edika_3,
+  edika_4,
+  edika_5,
+  edika_6,
+  edika_7,
+  edika_8,
+  edika_9,
+  edika_10
+        ],
+        description: `Ẹ̀díkáng Íkòng is a traditional Nigerian vegetable soup renowned for its rich flavors and high nutritional value. Originating from the Efik and Ibibio communities in Cross River and Akwa Ibom states, this hearty dish has become a staple across Nigeria, making it an excellent choice for weddings, birthdays, and cultural celebrations.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 20, 
         
-    //     name: ``,
-    //     images: [
+        name: `Abula: Amala , Gbegiri & Ewedu`,
+        images: [
+            abula_1,
+            abula_2,
+            abula_3,
+            abula_4,
+            abula_5,
+            abula_6,
+            abula_7,
+            abula_8,
+            abula_9,
             
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 21, 
+        ],
+        description: `Abula is a beloved traditional Yoruba dish, known for its rich combination of flavors and textures. It is a popular meal often served at weddings, family gatherings, and cultural celebrations, showcasing the depth of Yoruba cuisine. The dish is a harmonious blend of Amala, Gbegiri, and Ewedu, each contributing a unique flavor and texture that, when combined, create a truly satisfying experience.
+
+The base of Abula, Amala, is made from yam flour, cassava flour, or unripe plantain flour, creating a smooth and stretchy dish with a slightly earthy flavor. It pairs perfectly with the creamy, savory Gbegiri, a bean soup made from blended black-eyed beans that adds richness and depth to the meal. Completing the dish is Ewedu, a mucilaginous soup made from jute leaves, which gives the dish a slightly slimy texture that contrasts beautifully with the softness of Amala and the creaminess of Gbegiri.
+
+Abula is often served with a rich pepper sauce and topped with assorted meats like goat, beef, or fish. The combination of Amala, Gbegiri, and Ewedu offers a satisfying meal that is not only filling but also represents the warmth and hospitality of Yoruba culture. It’s a dish that brings people together, providing both nourishment and a true taste of tradition.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 21, 
         
-    //     name: ``,
-    //     images: [
+        name: `Eba`,
+        images: [
+            eba_1,
+            eba_2,
+            eba_3,
+            eba_4,
+            eba_5,
+            eba_6,
+            eba_7,
             
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 22, 
+        ],
+        description: `Eba is a popular Nigerian dish made from garri (cassava flour) and hot water. It is a staple food in many Nigerian households, particularly in the southwestern, southeastern, and western regions, including among the Yoruba people. Eba is often enjoyed as a hearty, comforting meal, served with a variety of flavorful soups and stews.
+
+To prepare Eba, garri is poured into boiling water and stirred continuously until it thickens into a smooth, stretchy, dough-like consistency. The texture of Eba can vary, with some people preferring it firmer and others softer, depending on their preference. The dish is typically shaped into small portions and eaten by hand, making it a communal and interactive meal.
+
+Eba is commonly paired with soups like Efo Riro, Egusi, Ogbono, Gbegiri, and Okra, as well as rich stews made from meats, fish, or snails. The combination of Eba with these soups creates a satisfying, filling meal that is a mainstay in Nigerian cuisine.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 22, 
         
-    //     name: ``,
-    //     images: [
-            
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 23, 
+        name: `Ewa Agoyin`,
+        images: [
+            ayoka_1,
+  ayoka_2,
+  ayoka_3,
+  ayoka_4,
+  ayoka_5,
+  ayoka_6,
+  ayoka_7,
+  ayoka_8,
+  ayoka_9,
+  ayoka_10
+        ],
+        description: `Ewa Agoyin is a traditional Nigerian dish, particularly popular among the Yoruba people, known for its savory and spicy flavor. It is a combination of ewa (beans) and a rich, flavorful pepper sauce (agoyin). This dish is simple yet incredibly satisfying, often enjoyed as a breakfast or lunch meal.
+
+The beans, typically brown beans (or ewa oloyin), are cooked until soft and tender. They are then served with agoyin, a thick, spicy sauce made from a blend of peppers, onions, palm oil, and sometimes locust beans (iru), which adds a distinct fermented flavor. The sauce is cooked to a rich consistency, offering a smoky, spicy kick that complements the mildness of the beans.
+
+Ewa Agoyin is typically served with fried plantains (dodo) or bread, making it a hearty and balanced meal. The combination of soft beans, spicy sauce, and the sweetness of fried plantains creates a delightful contrast of flavors and textures, making it a favorite among those who enjoy bold and flavorful dishes.
+
+In Yoruba culture, Ewa Agoyin is a beloved street food, often enjoyed as a quick and delicious meal. Its simplicity and taste have made it a popular choice for gatherings and celebrations, where it is served as a comfort food that brings people together.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 23, 
         
-    //     name: ``,
-    //     images: [
+        name: `Seafood Okro`,
+        images: [
+            seafff_1,
+            seafff_2,
+            seafff_3,
+            seafff_4,
+            seafff_5,
+            seafff_6,
+            seafff_7,
+            seafff_8
             
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 24, 
+        ],
+        description: `Seafood Okro is a delicious Nigerian dish that combines the fresh, delicate flavors of seafood with the rich, hearty texture of okra. It is a popular variation of the traditional Okro Soup, often served at special occasions or as a nutritious meal. The addition of seafood, such as fish, prawns, or crabs, gives the dish an exciting twist, making it both flavorful and rich in protein.
+
+The base of the dish is made from okra, which is chopped or blended into small pieces. Okra is known for its mucilaginous (slimy) texture, which gives the soup a thick and smooth consistency when cooked. The okra is then cooked with a variety of seasonings, such as onions, peppers, and spices, to bring out its natural flavor.
+
+The seafood is carefully added to the soup, often accompanied by other ingredients like palm oil, stockfish, and seasoning cubes, to create a savory and rich broth. The seafood infuses the soup with its distinct flavors, making each bite an explosion of taste.
+
+Seafood Okro is typically served with starchy sides such as pounded yam, eba, fufu, or rice. The combination of the rich, hearty okra with the tender, flavorful seafood creates a well-balanced and satisfying dish. It’s a perfect meal for any occasion, offering a taste of Nigeria’s coastal delicacies with the comfort of a classic soup.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 24, 
         
-    //     name: ``,
-    //     images: [
+        name: `Yam Porridge (Asaro)`,
+        images: [
+            asaro_1,
+            asaro_2,
+            asaro_3,
+            asaro_4,
+            asaro_5,
+            asaro_6,
+            asaro_7
             
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 25, 
+        ],
+        description: `Asaro is a traditional Nigerian dish, particularly popular in the southwestern region, especially among the Yoruba people. It is a delicious and comforting yam porridge that is rich in flavor, making it a favorite at both everyday meals and special occasions. Asaro is often served as a hearty breakfast, lunch, or dinner, and is known for its satisfying combination of soft, tender yams and a flavorful stew.
+
+To prepare Asaro, yams are peeled and cut into chunks, then boiled until they are soft and tender. The yams are then mashed or slightly mashed in their cooking liquid to create a creamy, porridge-like consistency. The key to a flavorful Asaro lies in the rich sauce that is added during the cooking process. The sauce is typically made from a blend of tomatoes, onions, peppers, palm oil, and seasonings like thyme, curry, and seasoning cubes. Some versions may include smoked fish, meat, or stock to enhance the flavor.
+
+The dish is enjoyed for its perfect balance of taste and texture, with the softness of the yam contrasting beautifully with the spiciness and richness of the sauce. Asaro can be served on its own or accompanied by fried plantains, eggs, or meats like chicken or beef for a more filling meal.
+
+Asaro is not only a comforting and nutritious dish but also one that reflects the vibrant and diverse flavors of Yoruba cuisine, making it a popular choice at family gatherings, parties, and celebratory events.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 25, 
         
-    //     name: ``,
-    //     images: [
+        name: `Gizdodo`,
+        images: [
+            gizdodo_1,
+            gizdodo_2,
+            gizdodo_3,
+            gizdodo_4,
+            gizdodo_5,
+            gizdodo_6
             
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
-    // { 
-    //     id: 26, 
+        ],
+        description: `Gizdodo is a flavorful and popular Nigerian dish that combines gizzard and fried plantains (dodo). It is a delightful mix of savory, spicy, and sweet flavors, making it a beloved side dish or main course at many Nigerian events, from weddings to casual family gatherings.
+
+The dish is made by first frying dodo (plantains) until they are golden brown and slightly crispy on the outside while remaining soft on the inside. Gizdodo is typically made with gizzards, which are the edible organs from poultry, usually chicken. The gizzards are cleaned, boiled until tender, and then fried to give them a crispy texture.
+
+The magic of Gizdodo comes from the rich sauce that binds the gizzards and plantains together. The sauce is typically made from a blend of onions, tomatoes, peppers, and seasoning, cooked until it thickens and becomes flavorful. It is often spiced with seasoning cubes, thyme, curry, and sometimes a touch of garlic or ginger. The combination of the sweet plantains and the spicy, savory sauce creates a mouthwatering dish that can be served as a side with rice, as an appetizer, or as a main course.
+
+Gizdodo is not only a tasty dish but also a colorful and vibrant addition to any meal. Its balance of textures, from the softness of the plantains to the crispiness of the gizzards, along with the richness of the sauce, makes it a crowd-pleaser at any gathering.`,
+        category: 'African Dishes' 
+    },
+    { 
+        id: 26, 
         
-    //     name: ``,
-    //     images: [
+        name: `Tuwo`,
+        images: [
+            Tuwo_1,
+            Tuwo_2,
+            Tuwo_3,
+            Tuwo_4,
+            Tuwo_5,
+            Tuwo_6,
+            Tuwo_7,
             
-    //     ],
-    //     description: ``,
-    //     category: 'Grills' 
-    // },
+        ],
+        description: `Tuwo is a traditional West African dish, popular in countries like Nigeria, Ghana, and other parts of the Sahel region. In Nigeria, particularly among the Hausa people, Tuwo is a staple food that is made from rice or corn flour, though variations can be made with millet or sorghum flour as well. It is a starchy, dough-like dish that is typically served with soups and stews.
+
+Tuwo is prepared by cooking the flour (usually rice or corn flour) in water until it thickens into a smooth, stretchy consistency. The mixture is then stirred continuously until it reaches a soft, stretchy texture, similar to a thick porridge or dough. Once the desired consistency is achieved, the mixture is molded into small portions or balls, which are served alongside various soups.
+
+Tuwo is commonly enjoyed with rich, flavorful soups such as Miyan Kuka (baobab leaf soup), Miyan Taushe (pumpkin soup), Miyan Geda (groundnut soup), or any other hearty Nigerian stews. The combination of Tuwo and soup offers a comforting and filling meal, with the Tuwo serving as a base to scoop up the flavorful soup.`,
+        category: 'African Dishes' 
+    },
     // { 
     //     id: 27, 
         

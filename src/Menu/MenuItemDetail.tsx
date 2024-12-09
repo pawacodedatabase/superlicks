@@ -29,6 +29,27 @@ const MenuItemDetail: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white py-16 px-8">
+
+          <div className='flex gap-5 justify-center  mb-9 text-xl'><Link
+              to="/"
+              className="block relative font-bold text-gray-500 hover:text-orange-600 transition duration-300 group"
+               >
+             Home
+              <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#ff904a] transition-all duration-300 transform -translate-x-1/2 group-hover:w-full"></span>
+            </Link>
+
+            <span>|</span>
+
+            <Link
+              to="/menu"
+              className="block relative font-bold text-gray-500  hover:text-orange-600 transition duration-300 group"
+               >
+             Menu
+              <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#ff904a] transition-all duration-300 transform -translate-x-1/2 group-hover:w-full"></span>
+            </Link>
+            </div> 
+
+
       <h1 className="text-2xl font-bold text-[#ff904a] mb-6 leading-tight text-center" style={{ fontFamily: "'Great Vibes', cursive" }}>
         {menuItem.name}
       </h1>
@@ -58,6 +79,12 @@ const MenuItemDetail: React.FC = () => {
             ))}
           </div>
         </div>
+
+        <Link to="/booking">
+              <button className="px-3 py-1  border-2 border-black rounded-md text-[#ff904a] text-sm font-semibold  shadow-lg ">
+                Back To Menu
+              </button>
+            </Link>
 
         {/* Product Details */}
         <div className="md:w-1/2 flex flex-col justify-between">

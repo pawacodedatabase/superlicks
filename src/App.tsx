@@ -11,7 +11,24 @@ import ConfirmationPage from './pages/confirmation';
 import ContactPage from './pages/Contact';
 import CulinaryTrainingPage from './pages/train';
 import Footer from './pages/footer';
+import { FaWhatsapp } from 'react-icons/fa'; // WhatsApp, Back Arrow, Scroll-to-Top icons
+import ScrollToTop from './components/ScrollToTop';
 
+
+
+
+
+const WhatsAppButton = () => (
+  <a
+    href="https://wa.me/+2348030577707" // Replace with your WhatsApp number
+    target="_blank"
+    rel="noopener noreferrer"
+    className="fixed bottom-10 right-4 bg-[#25d366] p-3 rounded-full text-white shadow-lg hover:bg-[#128c7e] transition duration-300"
+    aria-label="Chat with us on WhatsApp"
+  >
+    <FaWhatsapp size={28} />
+  </a>
+);
 
 const App: React.FC = () => {
   // Initialize AOS once the component mounts
@@ -24,6 +41,7 @@ const App: React.FC = () => {
 
   return (
     <Router>
+       <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -32,10 +50,13 @@ const App: React.FC = () => {
         <Route path="/train" element={<CulinaryTrainingPage />} />
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/confirmation" element={<ConfirmationPage />} />
-        <Route path="/menu/:id" element={<MenuItemDetail/>} />
-       
+        <Route path="/menu/:id" element={<MenuItemDetail />} />
       </Routes>
-      <Footer/>
+      <Footer />
+      {/* Add the sticky buttons */}
+      <WhatsAppButton />
+      
+     
     </Router>
   );
 };

@@ -29,15 +29,15 @@ const Footer: React.FC = () => {
         <div className="text-center md:text-left">
           <h4 className="text-lg font-semibold mb-4 text-[#FF904A]">Contact Us</h4>
           <p className="mb-2">Email: <a href="mailto:info@yourdomain.com" className="text-white hover:text-[#FF904A]">info@yourdomain.com</a></p>
-          <p className="mb-2">Phone: <a href="tel:+1234567890" className="text-white hover:text-[#FF904A]">+1 234 567 890</a></p>
-          <p className="mb-2">Address: 123 Your Street, City, Country</p>
+          <p className="mb-2">Phone: <a href="tel:+2348030577707" className="text-white hover:text-[#FF904A]">+234 803 057 7707</a></p>
+          <p className="mb-2">Address: </p>
         </div>
 
         {/* Social Media Section */}
         <div className="text-center md:text-left">
           <h4 className="text-lg font-semibold mb-4 text-[#FF904A]">Follow Us</h4>
           <div className="flex justify-center md:justify-start space-x-6 text-3xl">
-            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
+            <a href="https://wa.me/+2348030577707" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
               <FaWhatsapp />
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">

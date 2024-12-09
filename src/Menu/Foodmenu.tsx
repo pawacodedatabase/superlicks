@@ -30,13 +30,23 @@ const categories = [
   'Grills',
 ];
 
+const ITEMS_PER_PAGE = 10;
+
 const Menu: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [likedItems, setLikedItems] = useState<Record<number, boolean>>({});
+  const [currentPage, setCurrentPage] = useState(1);
 
   const filteredMenu = selectedCategory === 'All'
     ? menu
     : menu.filter((item) => item.category === selectedCategory);
+
+  const totalPages = Math.ceil(filteredMenu.length / ITEMS_PER_PAGE);
+  
+  const paginateMenu = filteredMenu.slice(
+    (currentPage - 1) * ITEMS_PER_PAGE,
+    currentPage * ITEMS_PER_PAGE
+  );
 
   const toggleLike = (id: number) => {
     setLikedItems((prev) => ({ ...prev, [id]: !prev[id] }));
@@ -47,6 +57,12 @@ const Menu: React.FC = () => {
     return words.length > wordLimit
       ? `${words.slice(0, wordLimit).join(' ')}...`
       : text;
+  };
+
+  const handlePageChange = (page: number) => {
+    if (page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+    }
   };
 
   return (
@@ -64,43 +80,41 @@ const Menu: React.FC = () => {
       </div>
 
       {/* Categories - Centered Scrollable Line */}
-      {/* Categories - Centered Scrollable Line */}
-<div className="mb-8">
-  <div className="flex justify-start items-center space-x-6 py-4 overflow-x-auto scrollbar-hide">
-    {categories.map((category) => (
-      <div
-        key={category}
-        className={`relative cursor-pointer w-36 h-36 flex-shrink-0 transition-transform duration-300 transform hover:scale-105 hover:shadow-lg rounded-lg ${
-          category === selectedCategory
-            ? 'border-4 border-[#ff904a] shadow-2xl'
-            : 'border-2 border-transparent'
-        }`}
-        onClick={() => setSelectedCategory(category)}
-      >
-        <div
-          className={`absolute inset-0 bg-cover bg-center rounded-lg transition-all duration-300 ${
-            category === selectedCategory ? 'scale-105' : 'scale-100'
-          }`}
-          style={{
-            backgroundImage: `url(${categoryImages[category]})`,
-          }}
-        ></div>
+      <div className="mb-8">
+        <div className="flex justify-start items-center space-x-6 py-4 overflow-x-auto scrollbar-hide">
+          {categories.map((category) => (
+            <div
+              key={category}
+              className={`relative cursor-pointer w-36 h-36 flex-shrink-0 transition-transform duration-300 transform hover:scale-105 hover:shadow-lg rounded-lg ${
+                category === selectedCategory
+                  ? 'border-4 border-[#ff904a] shadow-2xl'
+                  : 'border-2 border-transparent'
+              }`}
+              onClick={() => setSelectedCategory(category)}
+            >
+              <div
+                className={`absolute inset-0 bg-cover bg-center rounded-lg transition-all duration-300 ${
+                  category === selectedCategory ? 'scale-105' : 'scale-100'
+                }`}
+                style={{
+                  backgroundImage: `url(${categoryImages[category]})`,
+                }}
+              ></div>
 
-        {/* Full Coverage Opacity Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg flex items-center justify-center">
-          <p className="text-gray-300 font-semibold text-lg text-center">{category}</p>
+              {/* Full Coverage Opacity Overlay */}
+              <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg flex items-center justify-center">
+                <p className="text-gray-300 font-semibold text-lg text-center">{category}</p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-    ))}
-  </div>
-</div>
 
       {/* Menu Items */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {filteredMenu.map((item: MenuItem) => (
+        {paginateMenu.map((item: MenuItem) => (
           <div key={item.id} className="bg-white p-4 rounded-lg shadow-md relative">
             <Link to={`/menu/${item.id}`}>
-              {/* Display only the first image */}
               <img
                 src={item.images[0]} // Accessing only the first image in the array
                 alt={item.name}
@@ -127,6 +141,27 @@ const Menu: React.FC = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Pagination Controls */}
+      <div className="flex justify-center mt-8 space-x-4">
+        <button
+          onClick={() => handlePageChange(currentPage - 1)}
+          className="px-4 py-2 bg-[#ff904a] text-white font-semibold rounded-md hover:bg-orange-600 transition duration-200"
+          disabled={currentPage === 1}
+        >
+          Previous
+        </button>
+        <span className="flex items-center text-lg">
+          Page {currentPage} of {totalPages}
+        </span>
+        <button
+          onClick={() => handlePageChange(currentPage + 1)}
+          className="px-4 py-2 bg-[#ff904a] text-white font-semibold rounded-md hover:bg-orange-600 transition duration-200"
+          disabled={currentPage === totalPages}
+        >
+          Next
+        </button>
       </div>
     </div>
   );
