@@ -28,9 +28,9 @@ const RandomMenu: React.FC = () => {
   return (
     <div className="p-8 bg-[#f7f7f7] mt-10">
       {/* Featured Meals Title */}
-      <h2 className="text-3xl font-bold text-[#ff904a] text-center mb-8">
-        Featured Meals
-      </h2>
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-poppins text-[#4a4a4a] font-semibold mb-6 leading-snug text-center" style={{ fontFamily: "'Great Vibes', cursive" }}>
+         Featured Meal
+        </h2>
 
       {/* Random Meals */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
