@@ -586,7 +586,7 @@ Whether served as an appetizer or a refreshing, flavorful dish to complement the
   eforiro_7,
   eforiro_8
         ],
-        description: `Ẹ̀fọ́ Rírò is a quintessential Yoruba vegetable soup that brings richness, tradition, and bold flavors to any event. Known for its vibrant colors and deeply satisfying taste, this dish is a must-have at weddings, birthdays, and cultural celebrations, offering guests a true taste of Yoruba culinary heritage.
+        description: `Efo Riro is a quintessential Yoruba vegetable soup that brings richness, tradition, and bold flavors to any event. Known for its vibrant colors and deeply satisfying taste, this dish is a must-have at weddings, birthdays, and cultural celebrations, offering guests a true taste of Yoruba culinary heritage.
 
 Prepared with ẹ̀fọ́ (leafy greens like spinach or ẹ̀fọ́ tẹ̀tẹ̀), the soup is simmered in a base of blended peppers, tomatoes, and onions, enhanced with the distinct flavor of palm oil. Assorted meats, dried fish, pònmó (cow skin), and ìrán (stockfish) are added to give it a rich and hearty texture. The seasoning, which includes traditional spices, ensures that every bite bursts with authentic Yoruba flavors.
 
@@ -610,7 +610,7 @@ As a highlight of Yoruba cuisine, Ẹ̀fọ́ Rírò represents both culture and
   egusi_8
             
         ],
-        description: `Ẹ̀gúsí soup is a hearty and flavorful Yoruba delicacy that brings warmth, tradition, and indulgence to any event. Made with ground melon seeds (ẹ̀gúsí), this rich soup is a beloved staple, offering bold flavors and a satisfying texture that leaves a lasting impression on guests.
+        description: `Egusi soup is a hearty and flavorful Yoruba delicacy that brings warmth, tradition, and indulgence to any event. Made with ground melon seeds (ẹ̀gúsí), this rich soup is a beloved staple, offering bold flavors and a satisfying texture that leaves a lasting impression on guests.
 
 The soup is prepared with a vibrant base of blended peppers, tomatoes, and onions, simmered in palm oil to create a flavorful sauce. The ẹ̀gúsí adds a nutty, creamy texture that perfectly complements the spices and aromatics. Assorted meats, fish, and even seafood can be incorporated, along with fresh vegetables like spinach, ẹ̀fọ́ ẹ̀làbọ̀ (pumpkin leaves), or bitter leaf, making it a robust and wholesome dish.
 
@@ -634,7 +634,7 @@ With its inviting aroma, vibrant appearance, and deep, savory flavors, Ẹ̀gús
             semo_8,
             semo_9
         ],
-        description: `Sèmó, short for Sèmòlínà, is a beloved Nigerian staple and a key component of Yoruba cuisine. Known for its smooth texture and neutral taste, sèmó serves as the perfect complement to rich and flavorful soups, making it an excellent addition to your event menu.
+        description: `Semo, short for Sèmòlínà, is a beloved Nigerian staple and a key component of Yoruba cuisine. Known for its smooth texture and neutral taste, sèmó serves as the perfect complement to rich and flavorful soups, making it an excellent addition to your event menu.
 
 Made by mixing semolina flour with hot water and stirring to a soft, pliable consistency, sèmó is a versatile and satisfying option for guests. Its light, fluffy texture pairs beautifully with a variety of traditional soups, such as ẹ̀gúsí, ẹ̀fọ́ rírò, ìla alàsèpọ̀ (okra soup), or ogbono. Sèmó absorbs the flavors of the soup, ensuring a balanced and enjoyable dining experience with every bite.
 
@@ -690,7 +690,7 @@ The sauce’s fiery kick and savory richness make it a favorite among guests who
   edika_9,
   edika_10
         ],
-        description: `Ẹ̀díkáng Íkòng is a traditional Nigerian vegetable soup renowned for its rich flavors and high nutritional value. Originating from the Efik and Ibibio communities in Cross River and Akwa Ibom states, this hearty dish has become a staple across Nigeria, making it an excellent choice for weddings, birthdays, and cultural celebrations.`,
+        description: `Edikang Ikong is a traditional Nigerian vegetable soup renowned for its rich flavors and high nutritional value. Originating from the Efik and Ibibio communities in Cross River and Akwa Ibom states, this hearty dish has become a staple across Nigeria, making it an excellent choice for weddings, birthdays, and cultural celebrations.`,
         category: 'African Dishes' 
     },
     { 

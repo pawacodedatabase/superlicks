@@ -36,10 +36,18 @@ const Menu: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [likedItems, setLikedItems] = useState<Record<number, boolean>>({});
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchTerm, setSearchTerm] = useState('');
 
   const filteredMenu = selectedCategory === 'All'
-    ? menu
-    : menu.filter((item) => item.category === selectedCategory);
+    ? menu.filter((item) =>
+        item.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+        item.description.toLowerCase().includes(searchTerm.toLowerCase())
+      )
+    : menu.filter((item) =>
+        item.category === selectedCategory &&
+        (item.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+        item.description.toLowerCase().includes(searchTerm.toLowerCase()))
+      );
 
   const totalPages = Math.ceil(filteredMenu.length / ITEMS_PER_PAGE);
   
@@ -73,6 +81,8 @@ const Menu: React.FC = () => {
           type="text"
           placeholder="Search for meals..."
           className="px-4 py-2 w-full sm:w-1/2 lg:w-1/3 mx-auto rounded-lg shadow-md border-2 border-[#ff904a] focus:outline-none focus:ring-2 focus:ring-[#ff904a] transition duration-300"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
         <div className="absolute top-2/4 right-12 transform -translate-y-1/2 text-[#ff904a] text-2xl">
           <AiOutlineSearch />

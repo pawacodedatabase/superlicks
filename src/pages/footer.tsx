@@ -28,9 +28,9 @@ const Footer: React.FC = () => {
         {/* Contact Info Section */}
         <div className="text-center md:text-left">
           <h4 className="text-lg font-semibold mb-4 text-[#FF904A]">Contact Us</h4>
-          <p className="mb-2">Email: <a href="mailto:info@yourdomain.com" className="text-white hover:text-[#FF904A]">info@yourdomain.com</a></p>
+          <p className="mb-2"> <a href="mailto:superlickscatheringservices@gmail.com" className="text-white hover:text-[#FF904A]">Email</a></p>
           <p className="mb-2">Phone: <a href="tel:+2348030577707" className="text-white hover:text-[#FF904A]">+234 803 057 7707</a></p>
-          <p className="mb-2">Address: </p>
+          <p className="mb-2">Address: <span className="text-white hover:text-[#FF904A]">Ibadan , Oyo State</span> </p>
         </div>
 
         {/* Social Media Section */}
@@ -40,13 +40,13 @@ const Footer: React.FC = () => {
             <a href="https://wa.me/+2348030577707" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
               <FaWhatsapp />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
+            <a href="https://web.facebook.com/oderinu.adeolaibukunolu" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
               <FaFacebookF />
             </a>
-            <a href="mailto:info@yourdomain.com" className="text-white hover:text-[#FF904A] transition duration-300">
+            <a href="mailto:superlickscatheringservices@gmail.com " className="text-white hover:text-[#FF904A] transition duration-300">
               <FaEnvelope />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
+            <a href="https://instagram.com/superlicks_cathering_services" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
               <FaInstagram />
             </a>
           </div>
