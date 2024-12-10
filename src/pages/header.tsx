@@ -55,17 +55,17 @@ const Header: React.FC = () => {
           {/* Desktop Navigation Menu */}
           <nav className="hidden md:flex space-x-8">
             <Link
-              to="/home"
+              to="/"
               className="relative font-semibold text-[#000000] hover:text-[#ff904a] transition duration-200 group"
             >
               Home
               <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#ff904a] transition-all duration-300 transform -translate-x-1/2 group-hover:w-full"></span>
             </Link>
             <Link
-              to="/booking"
+              to="/train"
               className="relative font-semibold text-[#000000] hover:text-[#ff904a] transition duration-200 group"
             >
-              Booking
+              Train With Us
               <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#ff904a] transition-all duration-300 transform -translate-x-1/2 group-hover:w-full"></span>
             </Link>
             <Link
@@ -76,7 +76,7 @@ const Header: React.FC = () => {
               <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#ff904a] transition-all duration-300 transform -translate-x-1/2 group-hover:w-full"></span>
             </Link>
             <Link
-              to="/contact-us"
+              to="/contact"
               className="relative font-semibold text-[#000000] hover:text-[#ff904a] transition duration-200 group"
             >
               Contact Us
