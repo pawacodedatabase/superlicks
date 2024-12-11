@@ -10,8 +10,8 @@ const ConfirmationPage: React.FC = () => {
   const { name, email, phone, location: eventLocation, date, time, guests, bookingID } = location.state || {};
 
   const handleContactWhatsApp = () => {
-    const whatsappNumber = '+2348051057321'; 
-    const message = `Hello, I'm ${name} I would like to inquire more about the services offered.`;
+    const whatsappNumber = '+2348030577707'; 
+    const message = `Hello, I'm ${name} I just made a booking for an event in ${location} on ${date}. ${guests} Guests and my Booking ID is ${bookingID}`;
     window.open(`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
 
