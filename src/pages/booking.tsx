@@ -15,6 +15,8 @@ const BookingPage: React.FC = () => {
     guests: 1,
   });
 
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const navigate = useNavigate();
 
   // Get current date in YYYY-MM-DD format
@@ -28,19 +30,52 @@ const BookingPage: React.FC = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Booking Submitted:', formData);
 
     // Generate a simple booking ID based on timestamp
     const bookingID = `SL-${Date.now()}`;
 
     // Include booking ID in the formData
-    const dataWithID = { ...formData, bookingID };
+    const payload = {
+      ...formData,
+      bookingID,
+      access_key: '4b336a78-a4b1-4bda-9ea1-0009c8c93da1', // Replace with your Web3Forms access key
+    };
 
-    // Navigate to confirmation page and pass the form data
-    navigate('/confirmation', { state: dataWithID });
+    try {
+      setIsSubmitting(true);
+
+      // Send data to Web3Forms API
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (response.ok) {
+        console.log('Form submitted successfully');
+        // Navigate to confirmation page
+        navigate('/confirmation', { state: payload });
+      } else {
+        console.error('Error submitting form:', response.statusText);
+        alert('Failed to submit form. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('An unexpected error occurred. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
+
+  
+ 
+
+  // Get current date in YYYY-MM-DD format
+ 
 
   return (
     <div
@@ -193,9 +228,12 @@ const BookingPage: React.FC = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="px-8 py-3 bg-[#ff904a] text-white text-xl font-bold  shadow-lg hover:bg-[#e77e45] hover:shadow-xl transition duration-300 animate__animated animate__bounceIn animate__delay-1s"
+              disabled={isSubmitting}
+              className={`px-8 py-3 bg-[#ff904a] text-white text-xl font-bold shadow-lg transition duration-300 ${
+                isSubmitting ? 'opacity-50 cursor-not-allowed' : 'hover:bg-[#e77e45] hover:shadow-xl'
+              }`}
             >
-              Confirm Booking
+              {isSubmitting ? 'Submitting...' : 'Confirm Booking'}
             </button>
           </div>
         </form>

@@ -13,6 +13,7 @@ import CulinaryTrainingPage from './pages/train';
 import Footer from './pages/footer';
 import { FaWhatsapp } from 'react-icons/fa'; // WhatsApp, Back Arrow, Scroll-to-Top icons
 import ScrollToTop from './components/ScrollToTop';
+import TrainingConfirmationPage from './pages/trainConfirm';
 
 
 
@@ -47,6 +48,7 @@ const App: React.FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/trainconfirmation" element={<TrainingConfirmationPage />} />
         <Route path="/train" element={<CulinaryTrainingPage />} />
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/confirmation" element={<ConfirmationPage />} />
