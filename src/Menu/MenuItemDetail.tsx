@@ -80,7 +80,7 @@ const MenuItemDetail: React.FC = () => {
           </div>
         </div>
 
-        <Link to="/booking">
+        <Link to="/menu">
               <button className="px-3 py-1  border-2 border-black rounded-md text-[#ff904a] text-sm font-semibold  shadow-lg ">
                 Back To Menu
               </button>
