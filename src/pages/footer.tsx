@@ -46,10 +46,10 @@ const Footer: React.FC = () => {
             <a href="mailto:superlickscatheringservices@gmail.com " className="text-white hover:text-[#FF904A] transition duration-300">
               <FaEnvelope />
             </a>
-            <a href="https://instagram.com/superlicks_cathering_services" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
+            <a href="https://www.instagram.com/superlicks_catering_services/profilecard/?igsh=d3p4MW82NWRsMHli" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
               <FaInstagram />
             </a>
-            <a href="https://tiktok.com/oderinuadeola" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
+            <a href="https://www.tiktok.com/@oderinuadeola?_t=8sGOaDrJu0D&_r=1" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
               <FaTiktok />
             </a>
           </div>
