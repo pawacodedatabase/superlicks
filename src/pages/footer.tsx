@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../assets/1.png'; // Replace with your actual logo image
-import { FaWhatsapp, FaFacebookF, FaInstagram, FaEnvelope } from 'react-icons/fa'; // Social media icons
+import { FaWhatsapp, FaFacebookF, FaInstagram, FaEnvelope, FaTiktok } from 'react-icons/fa'; // Social media icons
 
 const Footer: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -48,6 +48,9 @@ const Footer: React.FC = () => {
             </a>
             <a href="https://instagram.com/superlicks_cathering_services" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
               <FaInstagram />
+            </a>
+            <a href="https://tiktok.com/oderinuadeola" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#FF904A] transition duration-300">
+              <FaTiktok />
             </a>
           </div>
         </div>
